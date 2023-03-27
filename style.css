@@ -1,0 +1,95 @@
+.user{
+    display:flex;
+    justify-content:space-between;
+    border:1px solid black;
+    width:200px;
+    height: 30px;
+    
+}
+article{
+    padding:12px;
+    border:1px solid black;
+    width:220px;
+    height: auto;
+    position: absolute;
+    overflow-y:scroll;
+    left: 74%;
+    top:3%;
+}    
+
+section{
+    border:5px solid black;
+    width:1000px;
+    height: 550px;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    box-shadow: 12px 7px 14px 1px rgba(0, 0, 255, .2);
+}
+
+.a{
+    position: absolute;
+    left: 92%;
+    top: 20px;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.a:hover{
+    background-color: red;
+}
+.container{
+    border:1px solid black;
+    width:680px;
+    height: 522px;
+    position: relative;
+    left:12px;
+    top: 15px;
+}
+
+#lance:hover,#save:hover,#nv:hover{
+cursor: pointer;
+background-color:gold;
+border: 4px dashed black;
+}
+
+img{
+width:300px;
+position: relative;
+left: 25%;
+top: 13%;
+}
+
+
+#nv,#lance,#save{
+    position: relative;
+    left:30% ;
+    top:20% ;
+}
+#score{
+    border: 3px dashed black;
+    width: 100px;
+    padding: 5px;
+    position: relative;
+    bottom: 63%;
+    left: 12px;
+    background-color: gold;
+    text-align: right;
+}
+#scoree{
+    position: absolute;
+    top: 1%;
+    left: 20px;
+    z-index: 2;
+}
+#pscore{
+position: relative;
+top: 20%;
+left: 44%;
+}
+
+.use{
+    position:absolute; 
+    top:-1% ;
+    left: 40%;
+}
